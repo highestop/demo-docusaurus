@@ -1,0 +1,48 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started",
+          "docs": [
+            {
+              "id": "create/create-a-blog-post",
+              "path": "/docs/create/create-a-blog-post",
+              "sidebar": "docs"
+            },
+            {
+              "id": "create/create-a-document",
+              "path": "/docs/create/create-a-document",
+              "sidebar": "docs"
+            },
+            {
+              "id": "create/create-a-page",
+              "path": "/docs/create/create-a-page",
+              "sidebar": "docs"
+            },
+            {
+              "id": "create/markdown/markdown-features",
+              "path": "/docs/create/markdown/markdown-features",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "thank-you",
+              "path": "/docs/thank-you",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

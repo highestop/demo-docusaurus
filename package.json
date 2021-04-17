@@ -1,0 +1,47 @@
+{
+  "name": "demo-docusaurus",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highestop/demo-docusaurus.git"
+  },
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "dotenv docusaurus start",
+    "build": "yarn clear && dotenv docusaurus build",
+    "build:development": "yarn clear && dotenv -c development docusaurus build",
+    "build:production": "yarn clear && dotenv -c production docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "gen-translations": "docusaurus write-translations",
+    "gen-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "docusaurus2-dotenv": "^1.4.0",
+    "dotenv-cli": "^4.0.0",
+    "prettier": "^2.2.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

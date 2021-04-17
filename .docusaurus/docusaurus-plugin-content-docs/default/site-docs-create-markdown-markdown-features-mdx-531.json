@@ -1,0 +1,20 @@
+{
+  "unversionedId": "create/markdown/markdown-features",
+  "id": "create/markdown/markdown-features",
+  "isDocsHomePage": false,
+  "title": "Markdown Features",
+  "description": "Docusaurus supports the Markdown syntax and has some additional features.",
+  "source": "@site/docs/create/markdown/markdown-features.mdx",
+  "slug": "/create/markdown/markdown-features",
+  "permalink": "/docs/create/markdown/markdown-features",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/create/create-a-blog-post"
+  },
+  "next": {
+    "title": "Thank you!",
+    "permalink": "/docs/thank-you"
+  }
+}

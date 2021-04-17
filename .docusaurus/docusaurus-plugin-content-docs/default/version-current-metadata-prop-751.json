@@ -1,0 +1,62 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "docs": [
+      {
+        "type": "link",
+        "label": "Getting Started",
+        "href": "/docs/"
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Docusaurus Tutorial",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Page",
+            "href": "/docs/create/create-a-page"
+          },
+          {
+            "type": "link",
+            "label": "Create a Document",
+            "href": "/docs/create/create-a-document"
+          },
+          {
+            "type": "link",
+            "label": "Create a Blog Post",
+            "href": "/docs/create/create-a-blog-post"
+          },
+          {
+            "collapsed": true,
+            "label": "Markdown",
+            "type": "category",
+            "items": [
+              {
+                "type": "link",
+                "label": "Markdown Features",
+                "href": "/docs/create/markdown/markdown-features"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Thank you!",
+        "href": "/docs/thank-you"
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/create/create-a-blog-post": "docs",
+    "/docs/create/create-a-document": "docs",
+    "/docs/create/create-a-page": "docs",
+    "/docs/create/markdown/markdown-features": "docs",
+    "/docs/": "docs",
+    "/docs/thank-you": "docs"
+  }
+}

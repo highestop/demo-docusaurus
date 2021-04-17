@@ -1,0 +1,20 @@
+{
+  "unversionedId": "create/create-a-blog-post",
+  "id": "create/create-a-blog-post",
+  "isDocsHomePage": false,
+  "title": "Create a Blog Post",
+  "description": "This page will help you on how to create blog posts in Docusaurus.",
+  "source": "@site/docs/create/create-a-blog-post.md",
+  "slug": "/create/create-a-blog-post",
+  "permalink": "/docs/create/create-a-blog-post",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Create a Document",
+    "permalink": "/docs/create/create-a-document"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/create/markdown/markdown-features"
+  }
+}

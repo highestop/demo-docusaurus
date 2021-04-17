@@ -1,0 +1,20 @@
+{
+  "unversionedId": "create/create-a-page",
+  "id": "create/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Any React or Markdown file created under src/pages directory is converted into a website page:",
+  "source": "@site/docs/create/create-a-page.md",
+  "slug": "/create/create-a-page",
+  "permalink": "/docs/create/create-a-page",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/create/create-a-document"
+  }
+}

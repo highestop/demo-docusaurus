@@ -1,0 +1,20 @@
+{
+  "unversionedId": "create/create-a-document",
+  "id": "create/create-a-document",
+  "isDocsHomePage": false,
+  "title": "Create a Document",
+  "description": "Documents are pages with a sidebar, a previous/next navigation and many other useful features.",
+  "source": "@site/docs/create/create-a-document.md",
+  "slug": "/create/create-a-document",
+  "permalink": "/docs/create/create-a-document",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Create a Page",
+    "permalink": "/docs/create/create-a-page"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/create/create-a-blog-post"
+  }
+}
