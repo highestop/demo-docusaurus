@@ -4,7 +4,7 @@ module.exports = {
   tagline:
     'Personal documents & blogs website, by Highestop Chen, powered by Docusaurus.',
   url: 'https://demo-docusaurus.highestop.me',
-  baseUrl: process.env.BASE_URL,
+  baseUrl: process.env.BASE_URL ?? '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'assets/favicon.ico',

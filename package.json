@@ -12,6 +12,7 @@
     "build": "yarn clear && dotenv docusaurus build",
     "build:development": "yarn clear && dotenv -c development docusaurus build",
     "build:production": "yarn clear && dotenv -c production docusaurus build",
+    "build:pages": "docusaurus build --out-dir public",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -20,8 +21,8 @@
     "gen-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.72",
-    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@docusaurus/core": "2.0.0-beta.3",
+    "@docusaurus/preset-classic": "2.0.0-beta.3",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^17.0.1",
